@@ -22,8 +22,8 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-5 pb-20 pt-32 md:px-8 md:pb-28 lg:pb-32">
         <div className="max-w-3xl animate-rise">
-          <div className="mb-6 inline-flex items-center gap-3 text-xs uppercase tracking-[0.28em] text-white/75">
-            <span className="h-px w-8 bg-white/50" />
+          <div className="mb-6 inline-flex items-center gap-3 rounded-full bg-graphite/70 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white backdrop-blur-sm">
+            <span className="h-px w-8 bg-white/70" />
             6–10 июля 2026 · Приэльбрусье
           </div>
 
