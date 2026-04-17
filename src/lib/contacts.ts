@@ -1,5 +1,5 @@
 const TG_URL = "https://t.me/andreyacmen";
-const FORM_URL = "https://forms.gle/JAkK3tYPiaShdzkg7";
+const FORM_URL = "https://forms.yandex.ru/cloud/69e2a63290290237595816b0";
 const PROGRAM_URL =
   "https://docs.google.com/document/d/1kjGbDIaZ1cftEAoHIAj_oKqC3r3z3Y3rCr-ky6dA690/edit?usp=sharing";
 const VK_URL = "https://vk.com/id336244488";
