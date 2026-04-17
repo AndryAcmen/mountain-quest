@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { contacts } from "@/lib/contacts";
+import logo from "@/assets/logo-bp.png";
 
 const navItems = [
   { href: "#about", label: "О формате" },
