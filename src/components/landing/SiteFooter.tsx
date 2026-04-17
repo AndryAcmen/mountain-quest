@@ -7,7 +7,11 @@ export function SiteFooter() {
         <div className="grid gap-10 lg:grid-cols-[2fr_1fr_1fr]">
           <div>
             <div className="font-display text-2xl tracking-tight text-foreground">Поход к Счастью</div>
-            <div className="mt-1 text-sm text-muted-foreground">Горный Феникс · 6–10 июля 2026 · Приэльбрусье</div>
+            <div className="mt-1 text-sm text-muted-foreground">
+              Горный Феникс
+              <br />
+              6–10 июля 2026 · Приэльбрусье
+            </div>
             <p className="mt-5 max-w-md text-sm leading-relaxed text-muted-foreground">
               Центр интуитивного развития «Белый Путь». Камерные трансформационные эко-туры
               в Приэльбрусье — маршрут, практика, тишина, проводник.
