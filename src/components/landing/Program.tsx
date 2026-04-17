@@ -3,6 +3,7 @@ import jeepImg from "@/assets/route-jeep-new.jpg";
 import lakeImg from "@/assets/lake-glacier-new.jpg";
 import waterfallImg from "@/assets/waterfall.jpg";
 import stoneImg from "@/assets/stone-garden.jpg";
+import day1Img from "@/assets/day1-meeting.png";
 
 import { contacts } from "@/lib/contacts";
 
@@ -11,7 +12,7 @@ const days = [
     d: "День 1",
     title: "Сбор. Кисловодск → горы",
     text: "Знакомство группы в Кисловодске в 09:00. Переезд в горную деревню Былым. Размещение в гостевом доме. Установочный брифинг и первая вечерняя практика.",
-    img: "https://i.pinimg.com/736x/ce/db/22/cedb2218e6047f74419615c141f668de.jpg",
+    img: day1Img,
   },
   {
     d: "День 2",
