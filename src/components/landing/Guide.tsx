@@ -1,5 +1,5 @@
 import { Section } from "./Section";
-import guideImg from "@/assets/guide.jpg";
+import guideImg from "@/assets/guide.png";
 
 const roles = [
   "Организатор и вдохновитель проекта",
