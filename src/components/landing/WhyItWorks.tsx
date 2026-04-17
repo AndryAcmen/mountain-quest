@@ -63,7 +63,7 @@ export function WhyItWorks() {
         {reasons.map((r) => (
           <div
             key={r.n}
-            className="group relative isolate overflow-hidden bg-card p-8 transition-colors hover:bg-secondary/40"
+            className="group relative isolate overflow-hidden bg-card p-8 transition-colors"
           >
             <img
               src={r.img}
@@ -76,7 +76,7 @@ export function WhyItWorks() {
             />
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-card via-card/85 to-card/55"
+              className={`pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t ${r.tint}`}
             />
             <div className="relative font-display text-3xl text-accent">{r.n}</div>
             <h3 className="relative mt-4 font-display text-2xl text-foreground">{r.title}</h3>
