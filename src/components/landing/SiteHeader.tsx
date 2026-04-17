@@ -31,7 +31,8 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8 lg:py-5">
-        <a href="#top" className="flex items-baseline gap-2 font-display text-lg tracking-tight md:text-xl whitespace-nowrap">
+        <a href="#top" className="flex items-center gap-2.5 font-display text-lg tracking-tight md:text-xl whitespace-nowrap">
+          <img src={logo} alt="Белый Путь" className="h-8 w-8 md:h-9 md:w-9 shrink-0" />
           <span className={scrolled ? "text-foreground" : "text-white"}>Поход к Счастью</span>
         </a>
 
