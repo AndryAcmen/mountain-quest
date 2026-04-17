@@ -30,14 +30,11 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8 lg:py-5">
-        <a href="#top" className="flex items-baseline gap-2 font-display text-lg tracking-tight md:text-xl">
+        <a href="#top" className="flex items-baseline gap-2 font-display text-lg tracking-tight md:text-xl whitespace-nowrap">
           <span className={scrolled ? "text-foreground" : "text-white"}>Поход к Счастью</span>
-          <span className={`hidden text-xs tracking-[0.2em] uppercase md:inline ${scrolled ? "text-muted-foreground" : "text-white/70"}`}>
-            · Горный Феникс
-          </span>
         </a>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-6 md:flex whitespace-nowrap">
           {navItems.map((item) => (
             <a
               key={item.href}
