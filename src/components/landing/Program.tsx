@@ -3,7 +3,7 @@ import jeepImg from "@/assets/route-jeep.jpg";
 import lakeImg from "@/assets/lake-glacier.jpg";
 import waterfallImg from "@/assets/waterfall.jpg";
 import stoneImg from "@/assets/stone-garden.jpg";
-import guesthouseImg from "@/assets/guesthouse.jpg";
+
 import { contacts } from "@/lib/contacts";
 
 const days = [
