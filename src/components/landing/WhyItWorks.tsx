@@ -66,7 +66,7 @@ export function WhyItWorks() {
               loading="lazy"
               width={1024}
               height={768}
-              className="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover opacity-15 mix-blend-luminosity transition-opacity duration-700 group-hover:opacity-25"
+              className="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover opacity-30 mix-blend-luminosity transition-opacity duration-700 group-hover:opacity-40"
             />
             <div
               aria-hidden="true"
