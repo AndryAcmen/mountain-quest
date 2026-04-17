@@ -17,7 +17,7 @@ export function FinalCTA() {
           6–10 июля 2026 · Приэльбрусье
         </div>
         <h2 className="font-display text-5xl leading-[1.05] tracking-tight text-white text-balance md:text-6xl lg:text-7xl">
-          Хватит откладывать себя
+          Хватит откладывать жизнь на потом
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base text-white/85 text-pretty md:text-lg">
           Если внутри уже давно звучит «пора» — возможно, это и есть тот шаг.
