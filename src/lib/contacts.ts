@@ -1,4 +1,5 @@
 const TG_URL = "https://t.me/andreyacmen";
+const BOT_URL = "https://t.me/Pohod_Happyness_bot";
 const FORM_URL = "https://forms.yandex.ru/cloud/69e2a63290290237595816b0";
 const PROGRAM_URL =
   "https://docs.google.com/document/d/1kjGbDIaZ1cftEAoHIAj_oKqC3r3z3Y3rCr-ky6dA690/edit?usp=sharing";
@@ -10,6 +11,7 @@ const TG_HANDLE = "@andreyacmen";
 
 export const contacts = {
   TG_URL,
+  BOT_URL,
   FORM_URL,
   PROGRAM_URL,
   VK_URL,
