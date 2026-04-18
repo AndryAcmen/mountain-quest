@@ -65,10 +65,8 @@ export function SiteHeader() {
             href={contacts.BOT_URL}
             target="_blank"
             rel="noopener"
-            className={`inline-flex items-center justify-center rounded-full border px-4 py-2.5 text-sm font-medium transition-colors ${
-              scrolled
-                ? "border-foreground/20 text-foreground hover:bg-foreground hover:text-background"
-                : "border-white/40 text-white hover:bg-white/10"
+            className={`inline-flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-medium ${
+              scrolled ? "btn-bot" : "btn-bot-on-dark"
             }`}
           >
             Спросить бота
@@ -112,7 +110,7 @@ export function SiteHeader() {
               target="_blank"
               rel="noopener"
               onClick={() => setOpen(false)}
-              className="mt-4 inline-flex items-center justify-center rounded-full border border-foreground/20 px-5 py-3 text-sm font-medium text-foreground"
+              className="btn-bot mt-4 inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-medium"
             >
               Спросить бота
             </a>

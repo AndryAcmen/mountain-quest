@@ -116,6 +116,10 @@
   --deep-blue: oklch(0.28 0.05 245);
   --copper: oklch(0.62 0.12 50);
 
+  /* Telegram-бот: насыщенный зелёный для выделения */
+  --bot-green: oklch(0.62 0.18 150);
+  --bot-green-soft: oklch(0.62 0.18 150 / 0.12);
+
   --chart-1: var(--copper);
   --chart-2: var(--pine);
   --chart-3: var(--deep-blue);
@@ -208,6 +212,30 @@
 
   .hairline {
     border-top: 1px solid var(--color-border);
+  }
+
+  /* Кнопка бота — зелёный контур, выделяется среди CTA */
+  .btn-bot {
+    border: 2px solid var(--bot-green);
+    color: var(--bot-green);
+    background-color: transparent;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+  .btn-bot:hover {
+    background-color: var(--bot-green);
+    color: var(--color-background);
+    transform: translateY(-2px);
+  }
+  .btn-bot-on-dark {
+    border: 2px solid var(--bot-green);
+    color: oklch(0.97 0.006 85);
+    background-color: var(--bot-green-soft);
+    backdrop-filter: blur(4px);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .btn-bot-on-dark:hover {
+    background-color: var(--bot-green);
+    transform: translateY(-2px);
   }
 }
 

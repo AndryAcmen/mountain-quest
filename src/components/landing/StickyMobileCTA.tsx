@@ -17,7 +17,7 @@ export function StickyMobileCTA() {
             href={contacts.BOT_URL}
             target="_blank"
             rel="noopener"
-            className="flex-1 inline-flex items-center justify-center rounded-xl bg-foreground px-3 py-3 text-sm font-medium text-background"
+            className="btn-bot flex-1 inline-flex items-center justify-center rounded-xl px-3 py-3 text-sm font-medium"
           >
             Бот
           </a>

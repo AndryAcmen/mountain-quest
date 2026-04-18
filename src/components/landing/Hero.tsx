@@ -49,7 +49,7 @@ export function Hero() {
               href={contacts.BOT_URL}
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-sm font-medium text-graphite transition-transform hover:-translate-y-0.5"
+              className="btn-bot-on-dark inline-flex items-center justify-center rounded-full px-7 py-4 text-sm font-medium"
             >
               Спросить бота
             </a>
