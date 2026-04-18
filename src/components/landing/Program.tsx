@@ -3,7 +3,7 @@ import jeepImg from "@/assets/route-jeep-new.jpg";
 import lakeImg from "@/assets/lake-glacier-new.jpg";
 import waterfallImg from "@/assets/waterfall.jpg";
 import stoneImg from "@/assets/stone-garden.jpg";
-import day1Img from "@/assets/day1-meeting.png";
+import day1Img from "@/assets/day1-new.jpg";
 
 import { contacts } from "@/lib/contacts";
 
