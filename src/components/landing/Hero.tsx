@@ -36,7 +36,7 @@ export function Hero() {
             Не туризм и не тренинг. Глубокий опыт возвращения к себе для тех, кто давно собирался остановиться.
           </p>
 
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href={contacts.FORM_URL}
               target="_blank"
@@ -44,6 +44,14 @@ export function Hero() {
               className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-4 text-sm font-medium text-accent-foreground shadow-copper transition-transform hover:-translate-y-0.5"
             >
               Заполнить анкету
+            </a>
+            <a
+              href={contacts.BOT_URL}
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-sm font-medium text-graphite transition-transform hover:-translate-y-0.5"
+            >
+              Спросить бота
             </a>
             <a
               href={contacts.PROGRAM_URL}

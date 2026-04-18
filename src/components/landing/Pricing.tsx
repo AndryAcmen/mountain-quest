@@ -42,7 +42,7 @@ export function Pricing() {
         </div>
       </div>
 
-      <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-center">
+      <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
         <a
           href={contacts.FORM_URL}
           target="_blank"
@@ -50,6 +50,14 @@ export function Pricing() {
           className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-4 text-sm font-medium text-accent-foreground shadow-copper transition-transform hover:-translate-y-0.5"
         >
           Заполнить анкету
+        </a>
+        <a
+          href={contacts.BOT_URL}
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center justify-center rounded-full bg-foreground px-7 py-4 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
+        >
+          Спросить бота
         </a>
         <a
           href={contacts.TG_URL}

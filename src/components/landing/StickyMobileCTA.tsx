@@ -9,17 +9,25 @@ export function StickyMobileCTA() {
             href={contacts.FORM_URL}
             target="_blank"
             rel="noopener"
-            className="flex-1 inline-flex items-center justify-center rounded-xl bg-accent px-4 py-3 text-sm font-medium text-accent-foreground"
+            className="flex-1 inline-flex items-center justify-center rounded-xl bg-accent px-3 py-3 text-sm font-medium text-accent-foreground"
           >
-            Заполнить анкету
+            Анкета
+          </a>
+          <a
+            href={contacts.BOT_URL}
+            target="_blank"
+            rel="noopener"
+            className="flex-1 inline-flex items-center justify-center rounded-xl bg-foreground px-3 py-3 text-sm font-medium text-background"
+          >
+            Бот
           </a>
           <a
             href={contacts.TG_URL}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center justify-center rounded-xl border border-border px-4 py-3 text-sm font-medium text-foreground"
+            className="inline-flex items-center justify-center rounded-xl border border-border px-3 py-3 text-sm font-medium text-foreground"
           >
-            Telegram
+            TG
           </a>
         </div>
       </div>
