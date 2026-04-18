@@ -4,7 +4,7 @@ import logo from "@/assets/logo-bp.png";
 
 const navItems = [
   { href: "#about", label: "О формате" },
-  { href: "#why", label: "Почему работает" },
+  { href: "#why", label: "Почему?" },
   { href: "#program", label: "Программа" },
   { href: "#guide", label: "Проводник" },
   { href: "#price", label: "Стоимость" },
