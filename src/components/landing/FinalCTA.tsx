@@ -23,7 +23,7 @@ export function FinalCTA() {
           Если внутри уже давно звучит «пора» — возможно, это и есть тот шаг.
           Без давления и срочности. Просто оставьте заявку — спокойно поговорим.
         </p>
-        <div className="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
+        <div className="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center">
           <a
             href={contacts.FORM_URL}
             target="_blank"
@@ -31,6 +31,14 @@ export function FinalCTA() {
             className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-medium text-accent-foreground shadow-copper transition-transform hover:-translate-y-0.5"
           >
             Заполнить анкету
+          </a>
+          <a
+            href={contacts.BOT_URL}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-sm font-medium text-graphite transition-transform hover:-translate-y-0.5"
+          >
+            Спросить бота
           </a>
           <a
             href={contacts.TG_URL}
